@@ -1,5 +1,5 @@
 # nodejs-mysql-template
-A preconfigured template for building basic 4 sections websites with server side rendering nodejs app + mysql database . Includes working form with data automatically being sent to mail account
+A preconfigured template for building classic 4 sections websites with server side rendering nodejs app + mysql database . Includes working form with data automatically being sent to mail account
 
 ## Dependencies
 - "cookie-parser": "~1.4.4", 
