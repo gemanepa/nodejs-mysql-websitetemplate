@@ -25,7 +25,7 @@ A preconfigured template for building classic 4 sections websites with server si
  5.  Open browser in  http://localhost:3000
 
 ## Routes
-http://localhost:3000/home
-http://localhost:3000/nosotros
-http://localhost:3000/productos
-http://localhost:3000/contacto
+- http://localhost:3000/home
+- http://localhost:3000/nosotros
+- http://localhost:3000/productos
+- http://localhost:3000/contacto
