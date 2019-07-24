@@ -33,5 +33,5 @@ li a:hover {
 }
 
 
-
-.texto {margin-left: 10%; margin-top: 5%; color: white;}
+h4, p {max-width: 350px}
+.texto {margin-left: 10%; margin-top: 5%; color: darkred; text-shadow: 0px 1px black;}
