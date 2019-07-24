@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('utn-nodejs-martinezcanepa:server');
+var debug = require('debug')('gemanepa-nodejsexpress:server');
 var http = require('http');
 
 /**

@@ -1,4 +1,4 @@
-# nodejs-mysql-template
+# nodejsexpress-mysql-template
 A preconfigured template for building classic 4 sections websites with server side rendering nodejs app + mysql database . Includes working form with data automatically being sent to mail account
 
 ## Dependencies
@@ -18,8 +18,8 @@ A preconfigured template for building classic 4 sections websites with server si
  2. Mail account (where form data will be sent) credentials go in *nodemailer-config.js*
  
 ## How to run
- 1. `git clone https://github.com/gemanepa/nodejs-mysql-template.git`
- 2. `cd nodejs-mysql-template`
+ 1. `git clone https://github.com/gemanepa/nodejsexpress-mysql-template.git`
+ 2. `cd nodejsexpress-mysql-template`
  3. `npm install`
  4. `npm run start`
  5.  Open browser in  http://localhost:3000

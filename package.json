@@ -1,5 +1,5 @@
 {
-  "name": "gemanepa-nodejs-mysql-template",
+  "name": "gemanepa-nodejsexpress-mysql-template",
   "version": "1.0.0",
   "private": true,
   "scripts": {
