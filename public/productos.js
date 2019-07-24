@@ -17,7 +17,7 @@ function ListaProductosView(productsList) {
   <html lang="es">
     <head>
     <meta charset="utf-8"/>
-    <title>UTN Nodejs - Productos</title>
+    <title>NodeJS|MySQL - Productos</title>
     <link href="/stylesheets/productos.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
     </head>
