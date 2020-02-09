@@ -12,7 +12,10 @@ const dbConnection = require('./db/db_connection');
 
 const app = express();
 
-dbConnection.DatabaseActivation()
+if (process.env.SQL_DISABLED !== 'true') {
+    dbConnection.DatabaseActivation()
+}
+
 
 app.use(logger('dev'));
 app.use(express.json());

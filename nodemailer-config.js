@@ -1,6 +1,6 @@
 const EnvironmentVariables = {
-  user: 'user@gmail.com',
-  pass: 'password'
+  user: 'harry.potter@hogwarts.com',
+  pass: 'alohomora'
 }
 
 module.exports.EnvironmentVariables = EnvironmentVariables

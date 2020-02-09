@@ -1,9 +1,9 @@
 
 const EnvironmentVariables = {
   host: 'localhost',
-  user: 'mysqlUser',
-  password: 'password',
-  database: 'databaseName'
+  user: 'sqlusername',
+  password: 'sqlpassword',
+  database: 'sqldatabase'
 }
 
 module.exports.EnvironmentVariables = EnvironmentVariables

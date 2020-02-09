@@ -47,7 +47,7 @@ router.post('/', function(req, res, next) {
       console.log(info);
  });
 
-  res.sendFile(path.resolve('public/formsended.html'));
+  res.sendFile(path.resolve('public/formsenviado.html'));
 });
 
 module.exports = router;
