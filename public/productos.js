@@ -1,16 +1,21 @@
 
-function ListaProductosView(productsList) {
-  const products = productsList.map((product) => `
-  <h3>${product.nombre}</h3>
-  <h4>$${product.precio}0</h4>
-  <article>
-    <div>
-      <img src=".${product.imagen.substring('public'.length)}" alt="${product.nombre}">
-    </div>
-    <p>${product.descripcion}</p>
-  </article>
-  <br>
-  `);
+function ListaProductosView(sqlDisabled = true, productsList = []) {
+  const products = () => {
+    if (!sqlDisabled) {
+      return productsList.map((product) => `
+      <h3>${product.nombre}</h3>
+      <h4>$${product.precio}0</h4>
+      <article>
+        <div>
+          <img src=".${product.imagen.substring('public'.length)}" alt="${product.nombre}">
+        </div>
+        <p>${product.descripcion}</p>
+      </article>
+      <br>
+      `);
+    }
+    return ['','']
+  }
 
   return `
   <!DOCTYPE HTML>
@@ -30,7 +35,7 @@ function ListaProductosView(productsList) {
         <li><a href="/contacto">Contacto</a></li>
       </ul>
       <main>
-      ${products.join('')}
+      ${products().join('')}
       </main>
     </body>
   </html>
