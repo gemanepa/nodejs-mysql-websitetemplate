@@ -3,13 +3,6 @@ A preconfigured template for building classic 4 sections websites with server si
 
 Live example: https://gemanepa-nodejs-mysql-websitetemplate.glitch.me/
 
-## Dependencies
-- "cookie-parser": "~1.4.4",
-- "debug": "~2.6.9",
-- "express": "~4.16.1",
-- "morgan": "~1.9.1",
-- "mysql": "^2.17.1",
-- "nodemailer": "^6.2.1"
 
 ## Software Requirements
 -  [Node](https://nodejs.org/es/download/)
